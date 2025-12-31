@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form-box">
+        <h2>User Registration</h2>
+        <input type="text" id="registerName" placeholder="Full Name">
+        <input type="email" id="registerEmail" placeholder="Email">
+        <input type="password" id="registerPassword" placeholder="Password">
+        <button onclick="registerUser()">Register</button>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+    <script src="js/firebase.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizen Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Citizen Dashboard</h2>
+        <button onclick="logoutUser()">Logout</button>
+    </header>
+    <section class="dashboard">
+        <h3>Welcome, <span id="userName">User</span></h3>
+        <p>Access your services and information here.</p>
+        <ul>
+            <li><a href="#">View Requests</a></li>
+            <li><a href="#">Submit New Request</a></li>
+            <li><a href="#">Update Profile</a></li>
+        </ul>
+    </section>
+    <script src="js/firebase.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
